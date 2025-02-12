@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kitchen</title>
+    <style>
+    .container {
+        display: flex; 
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px; 
+        
+
+    .item {
+        background-color: bisque;
+        height: 450px;
+        width: 450px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        text-align: center;
+        column-gap: 30px;
+
+    }
+    .item img {
+        height: 250px;
+        width: 250px;
+    }
+    .item-title {
+        font-size: xx-large;
+        color: brown;
+    }
+</style>
+</head>
+<body style="background-color:beige; margin:0;">
+    <marquee scrollamount="10" direction="right" style="color:rgb(211, 26, 63) ; text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5); animation: flash 1s infinite alternate;"><h1><i>Flash Offer % Buy upto 1000 rupees to get free delivery!!!! </i></h1></marquee>
+    <h1 style="color: brown; text-align: center;">kitchen items</h1>
+    <div class="container">
+        
+        <div class="item">
+            <div class="item-title">cooker <br> cost-500/-</div>
+            <a href="cart.html"><img src="cooker.jpg" alt="Kitchen Items"></a>
+        </div>
+        <div class="item">
+            <div class="item-title">Electric Cooker(5400 Watt) <br>cost- 5,499/- </div>
+            <a href="cart.html"><img src="electric_cooker.jpg" alt="Beauty Items"></a>
+        </div>
+       
+        <div class="item">
+            <div class="item-title">Oven (5400 Watt) <br>cost- 5,499/- </div>
+            <a href="cart.html"><img src="oven.jpg" alt="Stationery Items"></a>
+        </div>
+        <div class="item">
+            <div class="item-title">Pan</div>
+            <a href="cart.html"><img src="pan.jpg" alt="Dresses"></a>
+        </div>
+    
+    
+    </div>
+   
+    <nav style="background-color:burlywood ; height:50px; width:device-width;text-align: center;  "><button style="border-radius: 50%; height:45px ;background-color: chocolate;"" ><a href="cart.html" class="cart-button" style="text-decoration: none;">Go to Cart</a></button>
+    </nav>
+    
+</body>
+</html>

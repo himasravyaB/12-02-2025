@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppy</title>
+    <style>
+        body {
+            background-color: beige;
+            margin: 50px;
+        }
+        .marquee {
+            color: rgb(211, 26, 63);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            animation: flash 1s infinite alternate;
+        }
+        .container {
+            display: flex; 
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px; 
+            
+
+        .item {
+            background-color: bisque;
+            height: 300px;
+            width: 300px;
+            display: flex; 
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center; 
+            text-align: center;
+            column-gap: 30px;
+    
+        }
+        .item img {
+            height: 250px;
+            width: 250px;
+        }
+        .item-title {
+            font-size: xx-large;
+            color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <marquee scrollamount="10" direction="left" class="marquee">
+        <h1><i>Flash Offer % Buy up to 1000 rupees to get free delivery!!!!</i></h1>
+    </marquee>
+
+    <div class="container">
+        
+        <div class="item">
+            <div class="item-title">Kitchen Items</div>
+            <a href="kitchen.html"><img src="kitchen.jpg" alt="Kitchen Items"></a>
+        </div>
+        <div class="item">
+            <div class="item-title">Beauty Items</div>
+            <a href="beauty.html"><img src="beauty.jpg" alt="Beauty Items"></a>
+        </div>
+       
+        <div class="item">
+            <div class="item-title">Stationary Items</div>
+            <a href="stationary.html"><img src="stationary.jpg" alt="Stationery Items"></a>
+        </div>
+        <div class="item">
+            <div class="item-title">Dresses</div>
+            <a href="Dresses.html"><img src="Dresses.jpg" alt="Dresses"></a>
+        </div>
+    
+        <div class="item">
+            <div class="item-title">Furnitures</div>
+            <a href="Furnitures.html"><img src="Furnitures.jpg" alt="Furnitures"></a>
+        </div>
+    </div>
+   
+    <nav style="background-color:burlywood ; height:50px; width:device-width;text-align: center;  "><button style="border-radius: 50%; height:45px ;background-color: chocolate;"" ><a href="cart.html" class="cart-button" style="text-decoration: none;">Go to Cart</a></button>
+    </nav>
+    
+</body>
+</html>
